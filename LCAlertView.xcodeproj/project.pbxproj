@@ -13,6 +13,7 @@
 		4406A0E31DD15789004C77AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4406A0E11DD15789004C77AA /* Main.storyboard */; };
 		4406A0E51DD15789004C77AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4406A0E41DD15789004C77AA /* Assets.xcassets */; };
 		4406A0E81DD15789004C77AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4406A0E61DD15789004C77AA /* LaunchScreen.storyboard */; };
+		4406A0F11DD157F2004C77AA /* CommonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4406A0F01DD157F2004C77AA /* CommonAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4406A0E41DD15789004C77AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4406A0E71DD15789004C77AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4406A0E91DD15789004C77AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4406A0EF1DD157F2004C77AA /* CommonAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonAlertView.h; sourceTree = "<group>"; };
+		4406A0F01DD157F2004C77AA /* CommonAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				4406A0DE1DD15789004C77AA /* ViewController.h */,
 				4406A0DF1DD15789004C77AA /* ViewController.m */,
 				4406A0E11DD15789004C77AA /* Main.storyboard */,
+				4406A0EF1DD157F2004C77AA /* CommonAlertView.h */,
+				4406A0F01DD157F2004C77AA /* CommonAlertView.m */,
 				4406A0E41DD15789004C77AA /* Assets.xcassets */,
 				4406A0E61DD15789004C77AA /* LaunchScreen.storyboard */,
 				4406A0E91DD15789004C77AA /* Info.plist */,
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4406A0F11DD157F2004C77AA /* CommonAlertView.m in Sources */,
 				4406A0E01DD15789004C77AA /* ViewController.m in Sources */,
 				4406A0DD1DD15789004C77AA /* AppDelegate.m in Sources */,
 				4406A0DA1DD15788004C77AA /* main.m in Sources */,
