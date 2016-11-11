@@ -2,7 +2,7 @@
 //  CommonAlertView.h
 //  LCAlertView
 //
-//  Created by care on 16/11/8.
+//  Created by luochuan on 16/11/8.
 //  Copyright © 2016年 luochuan. All rights reserved.
 //
 

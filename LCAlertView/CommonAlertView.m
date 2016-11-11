@@ -2,7 +2,7 @@
 //  CommonAlertView.m
 //  LCAlertView
 //
-//  Created by care on 16/11/8.
+//  Created by luochuan on 16/11/8.
 //  Copyright © 2016年 luochuan. All rights reserved.
 //
 
@@ -48,7 +48,6 @@
 //在弹框的view上布局添加子view(如果想改变弹框里面的view样式布局,在此方法中修改)
 - (void)layoutSubviews{
     [super layoutSubviews];
-    
     _nameLable=[[UILabel alloc]initWithFrame:CGRectMake(10, 20, 68, 30)];
     _nameLable.textAlignment=NSTextAlignmentLeft;
     _nameLable.textColor=[self getColor:@"666666"];
@@ -197,7 +196,4 @@
     
     return [UIColor colorWithRed:(float)(red/255.0f)green:(float)(green / 255.0f) blue:(float)(blue / 255.0f)alpha:1.0f];
 }
-
-
-
 @end
