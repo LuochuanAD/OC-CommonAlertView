@@ -13,7 +13,8 @@
 		4406A0E31DD15789004C77AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4406A0E11DD15789004C77AA /* Main.storyboard */; };
 		4406A0E51DD15789004C77AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4406A0E41DD15789004C77AA /* Assets.xcassets */; };
 		4406A0E81DD15789004C77AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4406A0E61DD15789004C77AA /* LaunchScreen.storyboard */; };
-		4406A0F11DD157F2004C77AA /* CommonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4406A0F01DD157F2004C77AA /* CommonAlertView.m */; };
+		80FC32BA21B3E96D00B9D135 /* CommonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC32B921B3E96D00B9D135 /* CommonAlertView.m */; };
+		80FC32BC21B3E9E700B9D135 /* demoExample2016110501.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FC32BB21B3E9E700B9D135 /* demoExample2016110501.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +28,9 @@
 		4406A0E41DD15789004C77AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4406A0E71DD15789004C77AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4406A0E91DD15789004C77AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4406A0EF1DD157F2004C77AA /* CommonAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonAlertView.h; sourceTree = "<group>"; };
-		4406A0F01DD157F2004C77AA /* CommonAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonAlertView.m; sourceTree = "<group>"; };
+		80FC32B821B3E96D00B9D135 /* CommonAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonAlertView.h; sourceTree = "<group>"; };
+		80FC32B921B3E96D00B9D135 /* CommonAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonAlertView.m; sourceTree = "<group>"; };
+		80FC32BB21B3E9E700B9D135 /* demoExample2016110501.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demoExample2016110501.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +63,13 @@
 		4406A0D71DD15788004C77AA /* LCAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				80FC32B721B3E96D00B9D135 /* CommonAlertView */,
 				4406A0DB1DD15789004C77AA /* AppDelegate.h */,
 				4406A0DC1DD15789004C77AA /* AppDelegate.m */,
 				4406A0DE1DD15789004C77AA /* ViewController.h */,
 				4406A0DF1DD15789004C77AA /* ViewController.m */,
+				80FC32BB21B3E9E700B9D135 /* demoExample2016110501.png */,
 				4406A0E11DD15789004C77AA /* Main.storyboard */,
-				4406A0EF1DD157F2004C77AA /* CommonAlertView.h */,
-				4406A0F01DD157F2004C77AA /* CommonAlertView.m */,
 				4406A0E41DD15789004C77AA /* Assets.xcassets */,
 				4406A0E61DD15789004C77AA /* LaunchScreen.storyboard */,
 				4406A0E91DD15789004C77AA /* Info.plist */,
@@ -82,6 +84,15 @@
 				4406A0D91DD15788004C77AA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80FC32B721B3E96D00B9D135 /* CommonAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				80FC32B821B3E96D00B9D135 /* CommonAlertView.h */,
+				80FC32B921B3E96D00B9D135 /* CommonAlertView.m */,
+			);
+			path = CommonAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			files = (
 				4406A0E81DD15789004C77AA /* LaunchScreen.storyboard in Resources */,
 				4406A0E51DD15789004C77AA /* Assets.xcassets in Resources */,
+				80FC32BC21B3E9E700B9D135 /* demoExample2016110501.png in Resources */,
 				4406A0E31DD15789004C77AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4406A0F11DD157F2004C77AA /* CommonAlertView.m in Sources */,
+				80FC32BA21B3E96D00B9D135 /* CommonAlertView.m in Sources */,
 				4406A0E01DD15789004C77AA /* ViewController.m in Sources */,
 				4406A0DD1DD15789004C77AA /* AppDelegate.m in Sources */,
 				4406A0DA1DD15788004C77AA /* main.m in Sources */,
@@ -316,6 +328,7 @@
 				4406A0EE1DD15789004C77AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
